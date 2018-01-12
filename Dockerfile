@@ -16,7 +16,7 @@ RUN apt-get update && \
     rm -Rf /usr/share/doc && \
     rm -Rf /usr/share/man && \
     apt-get clean && \
-    pip install -U pip
+    pip install -U pip requests
 
 # Upgrade all packages
 RUN apt-get update && \
