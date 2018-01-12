@@ -2,7 +2,7 @@
 
 ## Notes
 
-This is a fork of geerlingguy/docker-ubuntu1604-ansible to add curl and tzdata as needed for an ansible image i use with travisci.
+This is a fork of geerlingguy/docker-ubuntu1604-ansible to add additional packages, as well as support testing via molecule.
 
 Build image with `docker build -t chrisjohnson00/ubuntu1604-ansible .`
 
